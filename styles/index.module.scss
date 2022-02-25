@@ -1,0 +1,53 @@
+.main {
+
+    .divider {
+        height: 2px;
+        margin: 10px 0px 10px 0px;
+        background-color: #f9f9f9;
+    }
+
+    .reason {
+        font-size: 18px;
+        padding: 5px
+    }
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0 0px;
+    margin: auto;
+}
+
+.row {
+    padding: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    border-radius: 5px;
+    height: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size:100%;
+
+    &:hover {
+        background-color: #d0d0d0;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}

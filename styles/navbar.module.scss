@@ -1,0 +1,15 @@
+.center {
+    max-width: 1200px;
+    margin: auto;
+
+    .title {
+        font-family: 'Roboto Mono', monospace;
+        margin: 20px 0px 10px 0px;
+        font-size: 30px;
+    }
+
+    .divider {
+        height: 2px;
+        background-color: #f1f1f1;
+    }
+}
