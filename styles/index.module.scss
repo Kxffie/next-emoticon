@@ -3,7 +3,7 @@
     .divider {
         height: 2px;
         margin: 10px 0px 10px 0px;
-        background-color: #f9f9f9;
+        background-color: #ED6A5A;
     }
 
     .reason {
@@ -38,10 +38,16 @@
     text-align: center;
     background-color: #f1f1f1;
     font-size:100%;
+    transition: 0.2s;
 
     &:hover {
-        background-color: #d0d0d0;
+        background-color: #ED6A5A;
+        color: white;
         cursor: pointer;
+    }
+
+    &:active {
+        background-color: #BA6B6B;
     }
 }
 
