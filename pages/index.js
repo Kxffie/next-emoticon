@@ -1,6 +1,32 @@
 import Head from 'next/head'
 import styles from '../styles/index.module.scss'
 
+{/* 
+
+██████╗░██╗░░░░░███████╗░█████╗░░██████╗███████╗  ██╗░██████╗░███╗░░██╗░█████╗░██████╗░███████╗
+██╔══██╗██║░░░░░██╔════╝██╔══██╗██╔════╝██╔════╝  ██║██╔════╝░████╗░██║██╔══██╗██╔══██╗██╔════╝
+██████╔╝██║░░░░░█████╗░░███████║╚█████╗░█████╗░░  ██║██║░░██╗░██╔██╗██║██║░░██║██████╔╝█████╗░░
+██╔═══╝░██║░░░░░██╔══╝░░██╔══██║░╚═══██╗██╔══╝░░  ██║██║░░╚██╗██║╚████║██║░░██║██╔══██╗██╔══╝░░
+██║░░░░░███████╗███████╗██║░░██║██████╔╝███████╗  ██║╚██████╔╝██║░╚███║╚█████╔╝██║░░██║███████╗
+╚═╝░░░░░╚══════╝╚══════╝╚═╝░░╚═╝╚═════╝░╚══════╝  ╚═╝░╚═════╝░╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝╚══════╝
+
+████████╗██╗░░██╗███████╗  ███╗░░██╗░█████╗░░██████╗████████╗██╗░░░██╗  ░█████╗░░█████╗░██████╗░███████╗
+╚══██╔══╝██║░░██║██╔════╝  ████╗░██║██╔══██╗██╔════╝╚══██╔══╝╚██╗░██╔╝  ██╔══██╗██╔══██╗██╔══██╗██╔════╝
+░░░██║░░░███████║█████╗░░  ██╔██╗██║███████║╚█████╗░░░░██║░░░░╚████╔╝░  ██║░░╚═╝██║░░██║██║░░██║█████╗░░
+░░░██║░░░██╔══██║██╔══╝░░  ██║╚████║██╔══██║░╚═══██╗░░░██║░░░░░╚██╔╝░░  ██║░░██╗██║░░██║██║░░██║██╔══╝░░
+░░░██║░░░██║░░██║███████╗  ██║░╚███║██║░░██║██████╔╝░░░██║░░░░░░██║░░░  ╚█████╔╝╚█████╔╝██████╔╝███████╗
+░░░╚═╝░░░╚═╝░░╚═╝╚══════╝  ╚═╝░░╚══╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░░░░╚═╝░░░  ░╚════╝░░╚════╝░╚═════╝░╚══════╝
+
+
+███╗░░░███╗░█████╗░██████╗░███████╗  ███╗░░░███╗██╗░░░██╗  ██╗░░██╗██╗░░██╗███████╗███████╗██╗███████╗
+████╗░████║██╔══██╗██╔══██╗██╔════╝  ████╗░████║╚██╗░██╔╝  ██║░██╔╝╚██╗██╔╝██╔════╝██╔════╝██║██╔════╝
+██╔████╔██║███████║██║░░██║█████╗░░  ██╔████╔██║░╚████╔╝░  █████═╝░░╚███╔╝░█████╗░░█████╗░░██║█████╗░░
+██║╚██╔╝██║██╔══██║██║░░██║██╔══╝░░  ██║╚██╔╝██║░░╚██╔╝░░  ██╔═██╗░░██╔██╗░██╔══╝░░██╔══╝░░██║██╔══╝░░
+██║░╚═╝░██║██║░░██║██████╔╝███████╗  ██║░╚═╝░██║░░░██║░░░  ██║░╚██╗██╔╝╚██╗██║░░░░░██║░░░░░██║███████╗
+╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░╚══════╝  ╚═╝░░░░░╚═╝░░░╚═╝░░░  ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░░░░░╚═╝╚══════╝
+
+*/}
+
 export default function Home() {
   return (
     <div>
@@ -13,6 +39,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.divider} />
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
         <div className={styles.divider} />
 
@@ -81,8 +108,6 @@ export default function Home() {
           <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(• Ε •)')}>
             <div className={styles.card}>(• Ε •)</div>
           </div>
-
-          {/* row */}
 
           <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(ಥ﹏ಥ)')}>
             <div className={styles.card}>(ಥ﹏ಥ)</div>
@@ -212,6 +237,102 @@ export default function Home() {
 
           <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('┬┴┬┴┤(･_├┬┴┬┴')}>
             <div className={styles.card}>┬┴┬┴┤(･_├┬┴┬┴</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('ᕙ(⇀‸↼‶)ᕗ')}>
+            <div className={styles.card}>ᕙ(⇀‸↼‶)ᕗ</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(;´༎ຶД༎ຶ`)')}>
+            <div className={styles.card}>(;´༎ຶД༎ຶ`)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('ᕦ(Ò_Óˇ)ᕤ')}>
+            <div className={styles.card}>ᕦ(Ò_Óˇ)ᕤ</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻')}>
+            <div className={styles.card}>┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('⚆ _ ⚆')}>
+            <div className={styles.card}>⚆ _ ⚆</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(••) ( ••)>⌐■-■ (⌐■_■)')}>
+            <div className={styles.card}>(••) ( ••)&gt;⌐■-■ (⌐■_■)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(｡◕‿‿◕｡)')}>
+            <div className={styles.card}>(｡◕‿‿◕｡)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('ಥ_ಥ')}>
+            <div className={styles.card}>ಥ_ಥ</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('ヽ༼ຈل͜ຈ༽ﾉ')}>
+            <div className={styles.card}>ヽ༼ຈل͜ຈ༽ﾉ</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('⌐╦╦═─')}>
+            <div className={styles.card}>⌐╦╦═─</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('˙ ͜ʟ˙')}>
+            <div className={styles.card}>˙ ͜ʟ˙</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('☜(˚▽˚)☞')}>
+            <div className={styles.card}>☜(˚▽˚)☞</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(•Ω•)')}>
+            <div className={styles.card}>(•Ω•)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(ง°ل͜°)ง')}>
+            <div className={styles.card}>(ง°ل͜°)ง</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(｡◕‿◕｡)')}>
+            <div className={styles.card}>(｡◕‿◕｡)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('（╯°□°）╯︵( .O.)')}>
+            <div className={styles.card}>（╯°□°）╯︵( .O.)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('┬──┬ ノ( ゜-゜ノ)')}>
+            <div className={styles.card}>┬──┬ ノ( ゜-゜ノ)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(っ˘ڡ˘Σ)')}>
+            <div className={styles.card}>(っ˘ڡ˘Σ)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('ಠ⌣ಠ')}>
+            <div className={styles.card}>ಠ⌣ಠ</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(°ロ°)☝')}>
+            <div className={styles.card}>(°ロ°)☝</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('｡◕‿‿◕｡')}>
+            <div className={styles.card}>｡◕‿‿◕｡</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('( ಠ ͜ʖರೃ)')}>
+            <div className={styles.card}>( ಠ ͜ʖರೃ)</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('╚(ಠ_ಠ)=┐')}>
+            <div className={styles.card}>╚(ಠ_ಠ)=┐</div>
+          </div>
+
+          <div className={styles.column} onClick={() =>  navigator.clipboard.writeText('(─‿‿─)')}>
+            <div className={styles.card}>(─‿‿─)</div>
           </div>
 
           <center><h1>MORE COMING SOON...</h1></center>

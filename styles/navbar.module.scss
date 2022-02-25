@@ -1,11 +1,20 @@
 .center {
     max-width: 1200px;
     margin: auto;
+    height: 50px;
 
     .title {
+        float: left;
         font-family: 'Roboto Mono', monospace;
         margin: 20px 0px 10px 0px;
         font-size: 30px;
+    }
+
+    .right {
+        float: right;
+        font-family: 'Roboto Mono', monospace;
+        padding: 20px 0px 0px 10px;
+        font-size: 24px;
     }
 
     .divider {
