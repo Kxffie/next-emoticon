@@ -8,10 +8,10 @@ const Navbar = () => {
                 Kxffiehub.xyz
             </div>
             <div className={styles.right}>
-                <a href="https://github.com/kxffie" target="_blank">github</a>
+                <a href="https://github.com/kxffie" target="_blank" rel="noreferrer">github</a>
             </div>
             <div className={styles.right}>
-                <a href="https://discord.gg/Qe53hnT3Dm" target="_blank">discord</a>
+                <a href="https://discord.gg/Qe53hnT3Dm" target="_blank" rel="noreferrer">discord</a>
             </div>
         </div>
     )
