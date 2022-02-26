@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        
+
         <center><h1>MORE COMING SOON...</h1></center>
         <center><h2>Is there an emoticon you have that we dont? <a href="https://discord.gg/XhZEfYbMwE" target="_blank" rel="noreferrer">Join the Discord and suggest it!</a></h2></center>
         <div className={styles.divider} />
