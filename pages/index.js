@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Kxffiehub.xyz | Home</title>
         
+        <meta name="theme-color" content="#ED6A5A"></meta>
         <link rel="icon" href="/favicon.ico" />
         <meta charset="UTF-8" />
         <meta name="author" content="Kxffie" />
