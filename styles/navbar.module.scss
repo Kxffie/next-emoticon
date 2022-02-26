@@ -10,10 +10,10 @@
         float: left;
         margin: 20px 0px 10px 0px;
         font-size: 30px;
-        transition: 0.2s;
 
         .copybtn {
-            color: hsl(0, 0%, 60%);
+            transition: 0.2s;
+            color: #999999;
 
             &:hover {
                 color: #ED6A5A;
@@ -31,17 +31,20 @@
         float: right;
         padding: 20px 0px 0px 10px;
         font-size: 24px;
-        transition: 0.2s;
-        color: hsl(0, 0%, 60%);
 
-        &:hover {
-            color: #ED6A5A;
-            cursor: pointer;
-        }
+        a {
+            transition: 0.2s;
+            color: #999999;
     
-        &:active {
-            color: #BA6B6B;
-            transform: translateY(4px);
+            &:hover {
+                color: #ED6A5A;
+                cursor: pointer;
+            }
+        
+            &:active {
+                color: #BA6B6B;
+                transform: translateY(2px)
+            }
         }
     }
 }
