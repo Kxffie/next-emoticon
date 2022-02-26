@@ -29,7 +29,7 @@ export default function Home() {
         <h4>Some will not look right, all based on what browser you use and what application you send the emoticons on: discord, reddit, instagram etc.</h4>
         <div className={styles.row}>
           {faces.map((faces) => (
-            <div className={styles.column} onClick={() =>  navigator.clipboard.writeText(faces.face)}>
+            <div key="faces" className={styles.column} onClick={() =>  navigator.clipboard.writeText(faces.face)}>
               <div className={styles.card}>{faces.face}</div>
             </div>
           ))}
