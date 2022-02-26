@@ -11,7 +11,7 @@ const Navbar = () => {
                 <a href="https://github.com/kxffie" target="_blank" rel="noreferrer">github</a>
             </div>
             <div className={styles.right}>
-                <a href="https://discord.gg/Qe53hnT3Dm" target="_blank" rel="noreferrer">discord</a>
+                <a href="https://discord.gg/XhZEfYbMwE" target="_blank" rel="noreferrer">discord</a>
             </div>
         </div>
     )
