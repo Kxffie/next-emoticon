@@ -4,15 +4,47 @@
     height: 50px;
     font-family: 'Roboto Mono', monospace;
 
+
+
     .title {
         float: left;
         margin: 20px 0px 10px 0px;
         font-size: 30px;
+        transition: 0.2s;
+
+        .copybtn {
+            color: #ED6A5A;
+
+            &:hover {
+                color: #ED6A5A;
+                cursor: pointer;
+            }
+        
+            &:active {
+                color: #BA6B6B;
+                transform: translateY(4px);
+            }
+        }
     }
 
     .right {
         float: right;
         padding: 20px 0px 0px 10px;
         font-size: 24px;
+        transition: 0.2s;
+
+        a:visited {
+            color: #ED6A5A;
+        }
+
+        &:hover {
+            color: #ED6A5A;
+            cursor: pointer;
+        }
+    
+        &:active {
+            color: #BA6B6B;
+            transform: translateY(4px);
+        }
     }
 }
