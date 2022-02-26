@@ -13,7 +13,7 @@
         transition: 0.2s;
 
         .copybtn {
-            color: #f1f1f1;
+            color: hsl(0, 0%, 60%);
 
             &:hover {
                 color: #ED6A5A;
@@ -32,9 +32,10 @@
         padding: 20px 0px 0px 10px;
         font-size: 24px;
         transition: 0.2s;
+        color: hsl(0, 0%, 60%);
 
         a:visited {
-            color: #ED6A5A;
+            color: hsl(0, 0%, 60%);
         }
 
         &:hover {
