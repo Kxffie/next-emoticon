@@ -30,7 +30,7 @@ export default function Home() {
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
         <div className={styles.divider} />
 
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677093057091061" crossorigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677093057091061" crossOrigin="anonymous"></script>
         {/* ads */}
         <ins className="adsbygoogle"
             style={{display: "block"}}
