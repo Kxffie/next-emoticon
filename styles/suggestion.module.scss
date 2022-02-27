@@ -1,0 +1,80 @@
+.main {
+    margin: 40px 0px 40px 0px;
+    font-family: 'Roboto Mono', monospace;
+
+    .form {
+        margin: auto;
+        width: 50%;
+
+        .emailName {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .messageName {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    
+        .email {
+            font-family:inherit;
+            font-size: inherit;
+            border:0;
+            border-bottom: 2px solid #999999;
+            margin:10px 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            width: 100%;
+            padding:10px;
+            box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+            transition: 0.2s;
+
+            &:focus {
+                outline:0;
+                border-bottom: 2px solid #ED6A5A;
+            }
+        }
+    
+        .message {
+            font-family:inherit;
+            font-size: inherit;
+            border:0;
+            border-bottom: 2px solid #999999;
+            margin:10px 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            width: 100%;
+            padding:10px;
+            box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+            transition: 0.2s;
+
+            &:focus {
+                outline:0;
+                border-bottom: 2px solid #ED6A5A;
+            }
+        }
+
+        .submit {
+            background-color: #fff;
+            border:0;
+            border-bottom: 2px solid #999999;
+            box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+            font-family: 'Roboto Mono', monospace;
+            padding: 10px 25px 10px 25px;
+            margin: 20px 0px 0px 0px;
+            font-size: 20px;
+            width: 100%;
+            transition: 0.2s;
+
+            &:hover {
+                border-bottom: 2px solid #ED6A5A;
+            }
+        }
+
+        input[type="email"],
+        textarea {
+            resize: vertical;
+            font-size:20px;
+        }
+    }
+}
