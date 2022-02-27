@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Script src="https://unpkg.com/akar-icons-fonts"></Script>
+        <Script src="https://unpkg.com/akar-icons-fonts" rel="noreferrer"></Script>
 
         <div className={styles.divider} />
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
