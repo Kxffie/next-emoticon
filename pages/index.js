@@ -25,6 +25,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-193493510-2">
+        </Script>
+        <Script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-193493510-2');
+        </Script>
 
         <div className={styles.divider} />
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
