@@ -21,16 +21,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-193493510-2" id="my-script">
-        </Script>
-        <Script id="my-script">
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-193493510-2');
-        </Script>
-
         <Script src="https://unpkg.com/akar-icons-fonts" id="my-script" rel="noreferrer"></Script>
         <Script data-ad-client="ca-pub-9677093057091061" id="my-script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Script>
         <Script async src="https://arc.io/widget.min.js#DnCcJ8yZ" id="my-script"></Script>
