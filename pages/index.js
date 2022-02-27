@@ -32,7 +32,7 @@ export default function Home() {
 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677093057091061" crossorigin="anonymous"></script>
         {/* ads */}
-        <ins class="adsbygoogle"
+        <ins className="adsbygoogle"
             style={{display: "block"}}
             data-ad-client="ca-pub-9677093057091061"
             data-ad-slot="6136901466"
