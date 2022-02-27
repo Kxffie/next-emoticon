@@ -10,6 +10,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Kxffiehub.xyz | Home</title>
+
+        <Script src="https://unpkg.com/akar-icons-fonts" rel="noreferrer"></Script>
+        <Script data-ad-client="ca-pub-9677093057091061" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Script>
+        <Script async src="https://arc.io/widget.min.js#DnCcJ8yZ"></Script>
         
         <meta name="theme-color" content="#ED6A5A"></meta>
         <link rel="icon" href="/favicon.ico" />
@@ -21,19 +25,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-193493510-1">
-        </Script>
-        <Script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-193493510-1');
-        </Sc>
-
-        <Script src="https://unpkg.com/akar-icons-fonts" rel="noreferrer"></Script>
-        <Script data-ad-client="ca-pub-9677093057091061" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Script>
-        <Script async src="https://arc.io/widget.min.js#DnCcJ8yZ"></Script>
 
         <div className={styles.divider} />
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
