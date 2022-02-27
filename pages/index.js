@@ -18,12 +18,13 @@ export default function Home() {
         <meta name="description" content="Kxffiehub.xyz | Copy and Paste Emoticons!" />
         <meta name="keywords" content="HTML, CSS, JavaScript, NextJS, Next, ReactJS, React, Kxffie, Koffie, Youtube, Emoticon, Copy and Paste, Emoticon Website, Funny Emojis, Emoji, Emojis, Lenny, Kxffiehub, Xyz, Html, css, javascript, nextjs, next, reactjs, react, kxffie, koffie, youtube, emoticon, copy and paste, emoticon website, funny emojis, emoji, emojis, lenny, kxffiehub, xyz, html, css, javascript, nextjs, next, reactjs, react, kxffie, koffie, youtube, emoticon, copy and paste, emoticon website, funny emojis, emoji, emojis, lenny, kxffiehub, xyz, HTML, CSS, JAVASCRIPT, NEXTJS, NEXT, REACTJS, REACT, KXFFIE, KOFFIE, YOUTUBE, EMOTICON, COPY AND PASTE, EMOTICON WEBSITE, FUNNY EMOJIS, EMOJI, EMOJIS, LENNY, KXFFIEHUB, XYZ, emoticons, japanese emoticons, cute emoticons, kawaii emoticons, text emoticons, emoticons meaning, smiley emoticons, emoticons text, emoticons list, keyboard emoticons, facebook emoticons, fun emoticons, halloween emoticons, fun emoticons, happy emoticons, funny emoticons, cool emoticons, animated emoticons, emoticons heart, ascii emoticons, how to add emoticons to discord, how to get more steam emoticons, what are emoticons, what does the emoticons mean, how to make emoticons, how to use emoticons on facebook, what does mean emoticons, how to make an emoticons, how to type emoticons, how to turn off skype emoticons, how to add emoticons to text messages on android, how to do facebook emoticons, how to add emoticons on facebook, how to add emoticons to skype, how to use the new emoticons on facebook, how to get emoticons on iphone 5, how to make emoticons for twitch, arc, arc.io, arc io, arc io invite code, arc io alternative, arc io code, arc.io python liberary, arc.io invite, how does arc.io work" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
+        <script src="https://unpkg.com/akar-icons-fonts" rel="noreferrer"></script>
+        <script data-ad-client="ca-pub-9677093057091061" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://arc.io/widget.min.js#DnCcJ8yZ"></script>
       </Head>
 
       <main className={styles.main}>
-        <Script src="https://unpkg.com/akar-icons-fonts" id="my-script" rel="noreferrer"></Script>
-        <Script data-ad-client="ca-pub-9677093057091061" id="my-script" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Script>
-        <Script async src="https://arc.io/widget.min.js#DnCcJ8yZ" id="my-script"></Script>
 
         <div className={styles.divider} />
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
