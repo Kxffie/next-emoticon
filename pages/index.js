@@ -30,7 +30,16 @@ export default function Home() {
         <h3 className={styles.reason}>Hello, this website was made because I hate always looking online for specific faces. So I just made this because I know im not the only one. This contains every text-face that I know of, especially Lenny.</h3>
         <div className={styles.divider} />
 
-        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677093057091061" crossorigin="anonymous"></script>
+        {/* ads */}
+        <ins class="adsbygoogle"
+            style={{display: "block"}}
+            data-ad-client="ca-pub-9677093057091061"
+            data-ad-slot="6136901466"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
         <h2>Click to Copy</h2>
         <h4>Some will not look right, all based on what browser you use and what application you send the emoticons on: discord, reddit, instagram etc.</h4>
         <div className={styles.row}>
