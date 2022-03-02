@@ -13,9 +13,6 @@ const Navbar = () => {
                 <a href="https://github.com/kxffie" target="_blank" rel="noreferrer"><GithubFill strokeWidth={2} size={24} /></a>
             </div>
             <div className={styles.right}>
-                <a href="https://discord.gg/XhZEfYbMwE" target="_blank" rel="noreferrer"><DiscordFill strokeWidth={2} size={24} /></a>
-            </div>
-            <div className={styles.right}>
                 <a href="https://www.youtube.com/c/Kxffie" target="_blank" rel="noreferrer"><YoutubeFill strokeWidth={2} size={24} /></a>
             </div>
         </div>

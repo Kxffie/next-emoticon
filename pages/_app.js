@@ -1,9 +1,10 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
-import styles from '../styles/global.module.scss'
+import styles from '../styles/globals.module.scss'
 
 import { useEffect } from "react";
 
+import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
