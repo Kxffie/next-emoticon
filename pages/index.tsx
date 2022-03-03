@@ -32,7 +32,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 id="welcometokxffiehub">Welcome to Kxffiehub!</h1><br />
 
-        <p>Hey! I'm Kxffie, the creator of Kxffiehub. I created the <strong><a href="https://www.kxffiehub.xyz/emoticons">Kxffiehub Emoticons.</a></strong> Some ways you could use this site is when you want to express more than what Emojis can do by using unicode! If you don't know what unicode is, you can go <strong><a href="https://www.unicode.org/history/earlyyears.html">here</a></strong> and find the information you need!</p><br />
+        <p>Hey! I&apos;m Kxffie, the creator of Kxffiehub. I created the <strong><a href="https://www.kxffiehub.xyz/emoticons">Kxffiehub Emoticons.</a></strong> Some ways you could use this site is when you want to express more than what Emojis can do by using unicode! If you don&apos;t know what unicode is, you can go <strong><a href="https://www.unicode.org/history/earlyyears.html">here</a></strong> and find the information you need!</p><br />
 
         <hr /><br />
 
