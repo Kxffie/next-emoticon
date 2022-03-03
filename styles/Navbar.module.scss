@@ -13,7 +13,7 @@
     }
 
     .header {
-        height: 37.5%;
+        height: 33.33%;
     }
 
     .title {
@@ -34,10 +34,10 @@
     }
 
     .content {
-        height: 37.5%;
+        height: 33.33%;
         display: flex;
         justify-content: center;
-        text-align: center;
+        align-items: center;
         
         .links {
 
@@ -55,10 +55,30 @@
     }
 
     .footer {
-        height: 25%;
+        height: 33.33%;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        .adButton {
+            padding: 10px 20px 10px 20px;
+            font-size:x-large;
+    
+            background: #082636;
+            color: #f1f1f1;
+            border: 2px solid #f1f1f1;
+            font: inherit;
+            cursor: pointer;
+            border-radius: 5px;
+    
+            transition: 0.25s;
+    
+            &:hover {
+                color: black;
+                background-color: #f1f1f1;
+                border: 2px solid #082636;
+                }
+        }
     }
 }
 
@@ -67,11 +87,11 @@
         width: 100px;
 
         .header {
-            height: 15%;
+            height: 33.33%;
         }
 
         .content {
-            height: 75%;
+            height: 33.33%;
         }
 
         .title h1 span {
@@ -85,6 +105,14 @@
 
         .links {
             font-size: 12px;
+        }
+
+        .footer {
+            height: 33.33%;
+
+            .adButton {
+                transform: scale(0.8);
+            }
         }
     }
 }

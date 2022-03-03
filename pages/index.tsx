@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -30,6 +31,27 @@ export default function Home() {
         <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
       <main className={styles.main}>
+        <div className={styles.ad}>
+          <div className={styles.adTitle}>
+            HOLD UP!
+          </div>
+
+          <div className={styles.adContent}>
+            7.5 million children in Ukraine are in grave danger of physical harm, severe emotional distress and displacement following an escalation in hostilities. Every effort should be made to find a diplomatic solution and avert a catastrophic war. 
+            <br /><br />
+            Your donation today can help provide children and families with immediate aid, such as food, water, hygiene kits, psychosocial support and cash assistance. Together, we can protect children in crisis.
+            <br /><br />
+            <Link href="https://support.savethechildren.org/site/Donation2?df_id=5751&mfc_pref=T&5751.donation=form1">
+              <button className={styles.adButton}>
+                DONATE
+              </button>
+            </Link>
+          </div>
+        </div>
+
+
+        <hr /><br />
+
         <h1 id="welcometokxffiehub">Welcome to Kxffiehub!</h1><br />
 
         <p>Hey! I&apos;m Kxffie, the creator of Kxffiehub. I created the <strong><a href="https://www.kxffiehub.xyz/emoticons">Kxffiehub Emoticons.</a></strong> Some ways you could use this site is when you want to express more than what Emojis can do by using unicode! If you don&apos;t know what unicode is, you can go <strong><a href="https://www.unicode.org/history/earlyyears.html">here</a></strong> and find the information you need!</p><br />

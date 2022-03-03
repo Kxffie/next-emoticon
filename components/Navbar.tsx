@@ -15,8 +15,6 @@ export const Navbar = () => {
                 <div className={styles.title}>
                     <h1><span>Kxffiehub</span></h1>
                 </div>
-
-                <div className={styles.divider} />
             </div>
 
             <div className={styles.content}>
@@ -27,20 +25,24 @@ export const Navbar = () => {
                             <h2>Home</h2>
                         </a>
                     </Link>
-                    <Link href="/emoticon">
+                    <Link href="/emoticons">
                         <a className={styles.link}>
                             <h2>Emoticons</h2>
+                        </a>
+                    </Link>
+                    <Link href="https://linktr.ee/Kxffie">
+                        <a target="_blank" className={styles.link}>
+                            <h2>Socialtr.ee</h2>
                         </a>
                     </Link>
                 </div>
             </div>
 
             <div className={styles.footer}>
-
-                <Link href="https://linktr.ee/Kxffie">
-                    <a target="_blank">
-                        <h1><BsCashCoin size={32} /></h1>
-                    </a>
+                <Link href="https://support.savethechildren.org/site/Donation2?df_id=5751&mfc_pref=T&5751.donation=form1">
+                    <button className={styles.adButton}>
+                        DONATE TO UKRAINE
+                    </button>
                 </Link>
             </div>
         </main>
