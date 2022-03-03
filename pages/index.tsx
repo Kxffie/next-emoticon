@@ -41,7 +41,7 @@ export default function Home() {
         <p>Kxffiehub is a producer for primarily copy and paste emoticons. Kxffiehub is a great place to get many Emoticons, such as Lenny faces or table flips. You can express way more with these than simple Emojis.</p><br />
 
         <h2>What makes us different than all the other websites?</h2><br />
-
+        
         <p>At KxffieHub, we are always adding more emoticons frequently and adding a better ease of access for what you need; when you need to spice up your Facebook (Meta) or Reddit post, you can come here and find what you need!</p><br />
 
         <h2>Better enjoyment!</h2><br />
