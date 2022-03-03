@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/Navbar.module.scss'
 
 export const Navbar = () => {
@@ -10,15 +11,25 @@ export const Navbar = () => {
 
             <div className={styles.content}>
                 <div className={styles.links}>
-                    <a href="/" className={styles.link}>
-                        <h3>Home</h3>
-                    </a>
-                    <a href="/emoticon" className={styles.link}>
-                        <h3>Emoticon</h3>
-                    </a>
-                    <a href="/emojimix" className={styles.link}>
-                        <h3>Emoji-Mix</h3>
-                    </a>
+                    
+                    <Link href="/">
+                        <a className={styles.link}>
+                            <h3>Home</h3>
+                        </a>
+                    </Link>
+
+                    <Link href="/emoticon">
+                        <a className={styles.link}>
+                            <h3>Emoticon</h3>
+                        </a>
+                    </Link>
+
+                    <Link href="/emojimix">
+                        <a className={styles.link}>
+                            <h3>Emoji-Mix</h3>
+                        </a>
+                    </Link>
+                    
                 </div>
             </div>
 
