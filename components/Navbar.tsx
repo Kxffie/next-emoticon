@@ -29,7 +29,7 @@ export const Navbar = () => {
                     </Link>
                     <Link href="/emoticon">
                         <a className={styles.link}>
-                            <h2>( ͡° ͜ʖ ͡°)</h2>
+                            <h2>Emoticons</h2>
                         </a>
                     </Link>
                 </div>
