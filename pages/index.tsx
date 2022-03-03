@@ -32,40 +32,36 @@ export default function Home() {
       <main className={styles.main}>
         <h1 id="welcometokxffiehub">Welcome to Kxffiehub!</h1><br />
 
-        <p>Hey! I'm <strong>Kxffie</strong>, the creator of Kxffiehub. I created the <strong><a href="https://www.kxffiehub.xyz/emoticons">Kxffiehub Emoticons.</a></strong> Some ways you could use this site is when you want to express more than what Emojis can do by using unicode! If you don't know what <strong>unicode</strong> is, you can go <strong><a href="https://www.unicode.org/history/earlyyears.html">here</a></strong> and find the information you need!</p><br />
+        <p>Hey! I'm Kxffie, the creator of Kxffiehub. I created the <strong><a href="https://www.kxffiehub.xyz/emoticons">Kxffiehub Emoticons.</a></strong> Some ways you could use this site is when you want to express more than what Emojis can do by using unicode! If you don't know what unicode is, you can go <strong><a href="https://www.unicode.org/history/earlyyears.html">here</a></strong> and find the information you need!</p><br />
 
         <hr /><br />
 
-        <h1 id="capabilities">Capabilities</h1><br />
+        <h1>Capabilities</h1><br />
 
-        <p><strong>Kxffiehub</strong> is a producer for primarily copy and paste emoticons. Kxffiehub is a great place to get many Emoticons, such as Lenny faces or table flips. You can express way more with these than simple Emojis.</p><br />
+        <p>Kxffiehub is a producer for primarily copy and paste emoticons. Kxffiehub is a great place to get many Emoticons, such as Lenny faces or table flips. You can express way more with these than simple Emojis.</p><br />
 
-        <h2 id="whatmakesusdifferentthanalltheotherwebsites">What makes us different than all the other websites?</h2><br />
+        <h2>What makes us different than all the other websites?</h2><br />
 
         <p>At KxffieHub, we are always adding more emoticons frequently and adding a better ease of access for what you need; when you need to spice up your Facebook (Meta) or Reddit post, you can come here and find what you need!</p><br />
 
-        <h2 id="betterenjoyment">Better enjoyment!</h2><br />
+        <h2>Better enjoyment!</h2><br />
 
         <p>We use <strong><a href="https://arc.io">Arc.io</a></strong> to help keep the website up to date and fun without the use of ads. As it is slower, other methods of direct donations include both <strong><a href="https://ko-fi.com/kxffie">Ko-fi</a></strong>, <strong><a href="https://www.buymeacoffee.com/kxffie">Buy Me a Coffee</a></strong> and <strong><a href="https://cash.app/$Kxffie">Cashapp</a></strong></p><br />
 
         <hr /><br />
 
-        <h1 id="progressandinformation">Progress and Information</h1><br />
+        <h1>Progress and Information</h1><br />
 
         <p>This website was made with NextJS (React Framework) + Typescript, SASS, and <strong><a href="https://react-icons.github.io/react-icons/">React-Icons</a></strong>  for the icons.
         Kxffiehub is sourced as MIT on <strong><a href="https://github.com/Kxffie/next-emoticon/tree/master">Github</a></strong></p><br />
 
-        <p><a href="https://choosealicense.com/licenses/mit/">MIT</a>, Copyright © 2022-present Bryce Riordan.</p><br />
+        <p><strong><a href="https://choosealicense.com/licenses/mit/">MIT</a></strong> Copyright © 2022-present Bryce Riordan.</p><br />
 
-        <h2 id="issues">Issues</h2><br />
+        <h2>Issues</h2><br />
 
-        <p>If you find any issues, such as duplicate emoticons or something not working properly, please go to:</p><br />
+        <p>If you find any issues, such as duplicate emoticons or something not working properly, please go to: <br /><strong><a href="https://github.com/Kxffie/next-emoticon/issues">Github: Next-Emoticon/Issues</a></strong></p><br />
 
-        <blockquote>
-          <p>https://github.com/Kxffie/next-emoticon/issues</p>
-        </blockquote><br />
-
-        <p>If you have any business inquiry, please send a private message to either <a href="https://instagram.com/bryce_is_bryce_tbh">Instagram</a> or Discord (Kxffie#0001)</p><br />
+        <p>If you have any business inquiry, please send a private message to either <strong><a href="https://instagram.com/bryce_is_bryce_tbh">Instagram</a></strong> or Discord (Kxffie#0001)</p><br />
       </main>
     </div>
   )
