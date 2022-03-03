@@ -1,12 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 import styles from '../styles/Navbar.module.scss'
+
+import { BsCashCoin } from "react-icons/bs";
 
 export const Navbar = () => {
     return (
         <main className={styles.main}>
-            <div className={styles.title}>
-                <h1 onClick={() =>  navigator.clipboard.writeText("https://www.kxffiehub.xyz/")}>Kxffiehub</h1>
+            <div className={styles.header} onClick={() =>  navigator.clipboard.writeText("https://www.kxffiehub.xyz/")} style={{cursor: "pointer"}}>
+                <div className={styles.image}>
+                    <Image src="/favicon-light.png" width="700px" height="700px" />
+                </div>
+                <div className={styles.title}>
+                    <h1><span>Kxffiehub</span></h1>
+                </div>
+
+                <div className={styles.divider} />
             </div>
 
             <div className={styles.content}>
@@ -14,27 +24,24 @@ export const Navbar = () => {
                     
                     <Link href="/">
                         <a className={styles.link}>
-                            <h3>Home</h3>
+                            <h2>Home</h2>
                         </a>
                     </Link>
-
                     <Link href="/emoticon">
                         <a className={styles.link}>
-                            <h3>Emoticon</h3>
+                            <h2>( ͡° ͜ʖ ͡°)</h2>
                         </a>
                     </Link>
-
-                    <Link href="/emojimix">
-                        <a className={styles.link}>
-                            <h3>Emoji-Mix</h3>
-                        </a>
-                    </Link>
-                    
                 </div>
             </div>
 
             <div className={styles.footer}>
-                <h1>Footer</h1>
+
+                <Link href="https://linktr.ee/Kxffie">
+                    <a target="_blank">
+                        <h1><BsCashCoin size={32} /></h1>
+                    </a>
+                </Link>
             </div>
         </main>
     )

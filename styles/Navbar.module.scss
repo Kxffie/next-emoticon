@@ -1,12 +1,22 @@
 .main {
     width: 200px;
     height: 100vh;
-    background-color: #121212;
+    background-color: #082636;
     box-shadow: #121212 1px 00px 10px 0px;
-    color: #f1f1f1;
+    color: #d5f4fd;
+    transition: 0.25s;
+
+    .divider {
+        height: 2px;
+        margin: 10px 0px 10px 0px;
+        background-color: #d5f4fd;
+    }
+
+    .header {
+        height: 30%;
+    }
 
     .title {
-        height: 25%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -24,10 +34,9 @@
     }
 
     .content {
-        height: 50%;
+        height: 60%;
         display: flex;
         justify-content: center;
-        align-items: center;
         text-align: center;
         
         .links {
@@ -46,9 +55,32 @@
     }
 
     .footer {
-        height: 25%;
+        height: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        width: 100px;
+
+        .header {
+            height: 15%;
+        }
+
+        .content {
+            height: 75%;
+        }
+
+        .title h1 span {
+            display: none;
+        }
+
+        .title:after {
+            content: '';
+            font-size: 48px;
+        }
     }
 }

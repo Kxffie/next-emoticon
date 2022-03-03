@@ -4,10 +4,23 @@
     .navbar {
         width: 200px;
         height: 100%;
+        position: fixed;
     }
 
     .children {
-        width: 100%;
-        padding: 10px;
+        margin: auto;
+        max-width: 1200px;
+        margin-left: 200px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+
+        .children {
+            margin-left: 100px;
+            padding: 10px;
+        }
     }
 }

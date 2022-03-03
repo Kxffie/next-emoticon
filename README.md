@@ -6,7 +6,7 @@ Kxffiehub is a producer for primarily copy and paste emoticons.
 You can use this to make your own site as long as you credit
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/), Copyright © 2020-present Bryce Riordan.
 
 ## Donations
 > Cashapp- [$Kxffie](https://www.cash.app/$Kxffie)
