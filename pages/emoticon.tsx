@@ -10,7 +10,20 @@ export default function Emoticon() {
                 <title>Kxffiehub.xyz | Emoticons</title>
                 <meta name="Kxffiehub.xyz" content="Kxffiehub.xyz | Your Go-To Copy and Paste Emoticon Site!" />
                 <link rel="icon" type="image/x-icon" href="./favicon-light.png"></link>
+
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677093057091061" crossOrigin="anonymous"></script>
+                <script async src="https://arc.io/widget.min.js#DnCcJ8yZ"></script>
             </Head>
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677093057091061" crossOrigin="anonymous"></script>
+            {/* ads */}
+            <ins className="adsbygoogle"
+                style={{display: "block"}}
+                data-ad-client="ca-pub-9677093057091061"
+                data-ad-slot="6136901466"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
             <main className={styles.main}>
                 <h1>Emoticons</h1>
