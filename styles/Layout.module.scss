@@ -1,0 +1,13 @@
+.main {
+    display: inline-flex;
+    
+    .navbar {
+        width: 200px;
+        height: 100%;
+    }
+
+    .children {
+        width: 100%;
+        padding: 10px;
+    }
+}
