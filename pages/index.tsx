@@ -30,35 +30,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.ad}>
-          <div className={styles.adTitle}>HOLD UP!</div>
-
-          <div className={styles.adContent}>
-            7.5 million children in Ukraine are in grave danger of physical
-            harm, severe emotional distress and displacement following an
-            escalation in hostilities. Every effort should be made to find a
-            diplomatic solution and avert a catastrophic war.
-            <br />
-            <br />
-            Your donation today can help provide children and families with
-            immediate aid, such as food, water, hygiene kits, psychosocial
-            support and cash assistance. Together, we can protect children in
-            crisis.
-            <br />
-            <br />
-            <Link
-              href="https://support.savethechildren.org/site/Donation2?df_id=5751&mfc_pref=T&5751.donation=form1"
-              passHref
-            >
-              <button className={styles.adButton}>DONATE</button>
-            </Link>
-          </div>
-        </div>
-
-        <hr />
-        <br />
-
-        <h1 id="welcometokxffiehub">Welcome to Kxffiehub!</h1>
+        <h1>Welcome to Kxffiehub!</h1>
         <br />
 
         <p>
@@ -72,7 +44,13 @@ export default function Home() {
           than what Emojis can do by using unicode! If you don&apos;t know what
           unicode is, you can go{" "}
           <strong>
-            <a href="https://www.unicode.org/history/earlyyears.html">here</a>
+            <a
+              href="https://www.unicode.org/history/earlyyears.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
           </strong>{" "}
           and find the information you need!
         </p>
@@ -114,15 +92,25 @@ export default function Home() {
           to help keep the website up to date and fun without the use of ads. As
           it is slower, other methods of direct donations include both{" "}
           <strong>
-            <a href="https://ko-fi.com/kxffie">Ko-fi</a>
+            <a href="https://ko-fi.com/kxffie" target="_blank" rel="noreferrer">
+              Ko-fi
+            </a>
           </strong>
           ,{" "}
           <strong>
-            <a href="https://www.buymeacoffee.com/kxffie">Buy Me a Coffee</a>
+            <a
+              href="https://www.buymeacoffee.com/kxffie"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Buy Me a Coffee
+            </a>
           </strong>{" "}
           and{" "}
           <strong>
-            <a href="https://cash.app/$Kxffie">Cashapp</a>
+            <a href="https://cash.app/$Kxffie" target="_blank" rel="noreferrer">
+              Cashapp
+            </a>
           </strong>
         </p>
         <br />
@@ -137,11 +125,21 @@ export default function Home() {
           This website was made with NextJS (React Framework) + Typescript,
           SASS, and{" "}
           <strong>
-            <a href="https://react-icons.github.io/react-icons/">React-Icons</a>
+            <a
+              href="https://react-icons.github.io/react-icons/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              React-Icons
+            </a>
           </strong>{" "}
           for the icons. Kxffiehub is sourced as MIT on{" "}
           <strong>
-            <a href="https://github.com/Kxffie/next-emoticon/tree/master">
+            <a
+              href="https://github.com/Kxffie/next-emoticon/tree/master"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </strong>
@@ -163,7 +161,11 @@ export default function Home() {
           If you find any issues, such as duplicate emoticons or something not
           working properly, please go to: <br />
           <strong>
-            <a href="https://github.com/Kxffie/next-emoticon/issues">
+            <a
+              href="https://github.com/Kxffie/next-emoticon/issues"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github: Next-Emoticon/Issues
             </a>
           </strong>
@@ -174,7 +176,13 @@ export default function Home() {
           If you have any business inquiry, please send a private message to
           either{" "}
           <strong>
-            <a href="https://instagram.com/bryce_is_bryce_tbh">Instagram</a>
+            <a
+              href="https://instagram.com/bryce_is_bryce_tbh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
           </strong>{" "}
           or Discord (Kxffie#0001)
         </p>

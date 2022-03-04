@@ -8,22 +8,27 @@ import { BsCashCoin } from "react-icons/bs";
 export const Navbar = () => {
   return (
     <main className={styles.main}>
-      <div
-        className={styles.header}
-        onClick={() =>
-          navigator.clipboard.writeText("https://www.kxffiehub.xyz/")
-        }
-        style={{ cursor: "pointer" }}
-      >
-        <div className={styles.image}>
+      <div className={styles.header}>
+        <div
+          className={styles.image}
+          style={{ cursor: "pointer" }}
+          onClick={() =>
+            navigator.clipboard.writeText("https://www.kxffiehub.xyz/")
+          }
+        >
           <Image
             src="/favicon-light.png"
             width="700px"
-            height="700px"
+            height="400px"
             alt="kxffiehub"
           />
         </div>
-        <div className={styles.title}>
+        <div
+          className={styles.title}
+          onClick={() =>
+            navigator.clipboard.writeText("https://www.kxffiehub.xyz/")
+          }
+        >
           <h1>
             <span>Kxffiehub</span>
           </h1>
@@ -48,12 +53,6 @@ export const Navbar = () => {
             </a>
           </Link>
         </div>
-      </div>
-
-      <div className={styles.footer}>
-        <Link href="https://support.savethechildren.org/site/Donation2?df_id=5751&mfc_pref=T&5751.donation=form1">
-          <button className={styles.adButton}>DONATE TO UKRAINE</button>
-        </Link>
       </div>
     </main>
   );

@@ -32,31 +32,6 @@ export default function Emoticons() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.ad}>
-          <div className={styles.adTitle}>HOLD UP!</div>
-
-          <div className={styles.adContent}>
-            7.5 million children in Ukraine are in grave danger of physical
-            harm, severe emotional distress and displacement following an
-            escalation in hostilities. Every effort should be made to find a
-            diplomatic solution and avert a catastrophic war.
-            <br />
-            <br />
-            Your donation today can help provide children and families with
-            immediate aid, such as food, water, hygiene kits, psychosocial
-            support and cash assistance. Together, we can protect children in
-            crisis.
-            <br />
-            <br />
-            <Link
-              href="https://support.savethechildren.org/site/Donation2?df_id=5751&mfc_pref=T&5751.donation=form1"
-              passHref
-            >
-              <button className={styles.adButton}>DONATE</button>
-            </Link>
-          </div>
-        </div>
-
         <h1>Emoticons</h1>
         <div className={styles.divider} />
 
