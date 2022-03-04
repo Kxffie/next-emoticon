@@ -1,6 +1,6 @@
 # [Kxffiehub.xyz](http://www.kxffiehub.xyz) [![Netlify Status](https://api.netlify.com/api/v1/badges/ae805cd9-88a4-4c9f-bdcf-fabf29cefaf0/deploy-status)](https://app.netlify.com/sites/next-emoticon/deploys)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kxffie)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kxffie&theme=apprentice&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 Kxffiehub is a producer for primarily copy and paste emoticons.
 
